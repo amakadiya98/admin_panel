@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Invoice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Invoice" name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="../assets/images/home-page/barratio-logo.png">
+
+    <!-- plugin css -->
+
+    <link href="../assets/libs/mohithg-switchery/switchery.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/libs/multiselect/css/multi-select.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/libs/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/libs/selectize/css/selectize.bootstrap3.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/libs/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet"
+        type="text/css" />
+
+    <link href="../assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet"
+        type="text/css" />
+    <link href="../assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet"
+        type="text/css" />
+
+    <link rel="stylesheet" href="../assets/libs/chartist/chartist.min.css">
+
+    <link href="../assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet" type="text/css" />
+    <!-- App css -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bs-default-stylesheet" />
+    <link href="../assets/css/app.css" rel="stylesheet" type="text/css" id="app-default-stylesheet" />
+    <link href="../assets/css/home-page.css" rel="stylesheet" type="text/css">
+
+
+    <!-- icons -->
+    <link href="../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="loading">
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        <!-- Topbar Start -->
+        <div class="navbar-custom">
+            <div class="container-fluid">
+
+                <!-- LOGO -->
+                <div class="logo-box">
+                    <a href="index.html" class="logo logo-light text-center">
+                        <!-- <span class="logo-sm">
+                                <img src="../assets/images/home-page/barratio-logo.png" alt="">
+                            </span> -->
+                        <span class="logo-lg">
+                            <img src="../assets/images/home-page/barratio-logo.png" alt="">
+                            <span class="brand-name">Barratio</span>
+                        </span>
+                    </a>
+                </div>
+
+                <ul class="list-unstyled topnav-menu topnav-menu-left m-0">
+                    <li>
+                        <button class="button-menu-mobile waves-effect waves-light">
+                            <i class="fe-menu"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!-- end Topbar -->
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left-side-menu">
+
+            <div class="h-100" data-simplebar>
+
+                <!-- User box -->
+                <div class="user-box text-center">
+                    <img src="../assets/images/users/user-1.jpg" alt="user-img" title="Mat Helme"
+                        class="rounded-circle avatar-md">
+                    <div class="dropdown">
+                        <a href="javascript: void(0);" class="text-dark dropdown-toggle h5 mt-2 mb-1 d-block"
+                            data-toggle="dropdown">Geneva Kennedy</a>
+                        <div class="dropdown-menu user-pro-dropdown">
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fe-user mr-1"></i>
+                                <span>My Account</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fe-settings mr-1"></i>
+                                <span>Settings</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fe-lock mr-1"></i>
+                                <span>Lock Screen</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="fe-log-out mr-1"></i>
+                                <span>Logout</span>
+                            </a>
+
+                        </div>
+                    </div>
+                    <p class="text-muted">Admin Head</p>
+                </div>
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+
+                    <ul id="side-menu">
+
+                        <li class="menu-title">Navigation</li>
+
+                        <li>
+                            <a href="#sidebarDashboards">
+                                <i data-feather="home"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="menuitem-active">
+                            <a href="#sidebarEcommerce" data-toggle="collapse">
+                                <i data-feather="shopping-cart"></i>
+                                <span>Purchase</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse show" id="sidebarEcommerce">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="#">Main</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Invoice</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="active">Invoice Approval</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Supplier</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Product</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- End Sidebar -->
+
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- Sidebar -left -->
+
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start Page Content here -->
+        <!-- ============================================================== -->
+
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Start Content-->
+                <div class="container-fluid">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Purchase</a></li>
+                                        <li class="breadcrumb-item active">Invoice Approval</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title">Invoice Approval</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+
+                    <div class="row">
+                        <div class="col-md-6 col-xl-6">
+                            <div class="card-box">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="avatar-sm bg-blue rounded">
+                                            <img src="../assets/images/home-page/pdf.png" alt="pdf-icon">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="text-right">
+                                            <h3 class="text-dark my-1"><span data-plugin="counterup">5</span></h3>
+                                            <p class="text-muted mb-1 text-truncate">Total invoices</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- end card-box-->
+                        </div> <!-- end col -->
+
+                        <div class="col-md-6 col-xl-6">
+                            <div class="card-box">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="avatar-sm bg-orange">
+                                            <img src="../assets/images/home-page/balance.png" alt="balance-icon">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="text-right">
+                                            <h3 class="text-dark my-1"><span data-plugin="counterup">6146.90€</span>
+                                            </h3>
+                                            <p class="text-muted mb-1 text-truncate">Balance due</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- end card-box-->
+                        </div> <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <!-- chart-part -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6 graph-part">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="table-title">Invoices to be paid</h3>
+                                    <div id="custom-line-chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-6 graph-part pie-chart">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="table-title">Invoice dues per supplier by status</h3>
+                                    <!-- <div id="pie-chart" class="ct-chart ct-golden-section"></div> -->
+                                    <div id="chart5" class="ct-chart ct-major-tenth mt-4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- invoice-table -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="">
+                                        <div id="products-datatable_wrapper"
+                                            class="dataTables_wrapper dt-bootstrap4 no-footer">
+                                            <h3 class="table-title">Dues Invoices</h3>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6 offset-md-6">
+                                                    <div id="products-datatable_filter" class="dataTables_filter">
+                                                        <input type="search"
+                                                            class="form-control form-control-sm search-box"
+                                                            placeholder="Search" aria-controls="products-datatable">
+                                                        <div class="serach-icon-box">
+                                                            <img src="../assets/images/home-page/search.png"
+                                                                alt="search" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2 mb-3">
+                                                <div class="col-sm-12 col-md-2">
+                                                    <div class="dataTables_length" id="products-datatable_length">
+                                                        <label>Show
+                                                            <select
+                                                                class="custom-select custom-select-sm select-number-dropdown ml-1 mr-1">
+                                                                <option value="10">10</option>
+                                                                <option value="20">20</option>
+                                                                <option value="-1">All</option>
+                                                            </select>
+                                                            entries
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-centered dt-responsive nowrap w-100"
+                                                            id="products-datatable">
+                                                            <thead>
+                                                                <tr role="row">
+                                                                    <th>
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input"
+                                                                                id="customCheck1">
+                                                                            <label class="custom-control-label"
+                                                                                for="customCheck1">&nbsp;</label>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th class="sorting">
+                                                                        Invoice Number
+                                                                    </th>
+                                                                    <th class="sorting">
+                                                                        Supplier Name
+                                                                    </th>
+                                                                    <th class="status-part">
+                                                                        Status
+                                                                        <div class="dot-part">
+                                                                            <span class="status-dot blue-dot"></span>
+                                                                            <span class="status-dot yellow-dot"></span>
+                                                                            <span class="status-dot green-dot"></span>
+                                                                            <span
+                                                                                class="status-dot lightGreen-dot"></span>
+                                                                        </div>
+                                                                        <div
+                                                                            class="form-group status-table-dropdown mb-0">
+                                                                            <div class="">
+                                                                                <div class="">
+                                                                                    <div class="col-12 p-0">
+                                                                                        <div class="button-group">
+                                                                                            <button type="button"
+                                                                                                class="btn btn-default btn-sm dropdown-toggle"
+                                                                                                data-toggle="dropdown"><span
+                                                                                                    class="glyphicon glyphicon-cog"></span>
+                                                                                                <span
+                                                                                                    class="caret"></span></button>
+                                                                                            <ul class="dropdown-menu">
+                                                                                                <li>
+                                                                                                    <a href="#"
+                                                                                                        class="small"
+                                                                                                        data-value="option1"
+                                                                                                        tabIndex="-1">
+                                                                                                        <div
+                                                                                                            class="custom-control custom-checkbox">
+                                                                                                            <input
+                                                                                                                type="checkbox"
+                                                                                                                class="custom-control-input"
+                                                                                                                id="customCheck11">
+                                                                                                            <label
+                                                                                                                class="custom-control-label"
+                                                                                                                for="customCheck11">&nbsp;</label>
+                                                                                                        </div>
+                                                                                                        <span
+                                                                                                            class="badge blue">Open
+                                                                                                            for
+                                                                                                            Approval</span>
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <a href="#"
+                                                                                                        class="small"
+                                                                                                        data-value="option2"
+                                                                                                        tabIndex="-1">
+                                                                                                        <div
+                                                                                                            class="custom-control custom-checkbox">
+                                                                                                            <input
+                                                                                                                type="checkbox"
+                                                                                                                class="custom-control-input"
+                                                                                                                id="customCheck22">
+                                                                                                            <label
+                                                                                                                class="custom-control-label"
+                                                                                                                for="customCheck22">&nbsp;</label>
+                                                                                                        </div>
+                                                                                                        <span
+                                                                                                            class="badge yellow">Pending
+                                                                                                            for
+                                                                                                            Approval</span>
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <a href="#"
+                                                                                                        class="small"
+                                                                                                        data-value="option3"
+                                                                                                        tabIndex="-1">
+                                                                                                        <div
+                                                                                                            class="custom-control custom-checkbox">
+                                                                                                            <input
+                                                                                                                type="checkbox"
+                                                                                                                class="custom-control-input"
+                                                                                                                id="customCheck33">
+                                                                                                            <label
+                                                                                                                class="custom-control-label"
+                                                                                                                for="customCheck33">&nbsp;</label>
+                                                                                                        </div>
+                                                                                                        <span
+                                                                                                            class="badge green">Payment
+                                                                                                            Required</span>
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    <a href="#"
+                                                                                                        class="small"
+                                                                                                        data-value="option4"
+                                                                                                        tabIndex="-1">
+                                                                                                        <div
+                                                                                                            class="custom-control custom-checkbox">
+                                                                                                            <input
+                                                                                                                type="checkbox"
+                                                                                                                class="custom-control-input"
+                                                                                                                id="customCheck44">
+                                                                                                            <label
+                                                                                                                class="custom-control-label"
+                                                                                                                for="customCheck44">&nbsp;</label>
+                                                                                                        </div>
+                                                                                                        <span
+                                                                                                            class="badge green">Partially
+                                                                                                            Paid</span>
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th class="sorting">
+                                                                        Balance Due
+                                                                    </th>
+                                                                    <th class="sorting_asc">
+                                                                        Discrepancies
+                                                                    </th>
+                                                                    <th class="sorting">
+                                                                        Update Date
+                                                                    </th>
+                                                                    <th class="sorting">
+                                                                        Due Date
+                                                                    </th>
+                                                                    <th class="sorting">
+                                                                        Remaining Days
+                                                                    </th>
+                                                                    <th class="sorting">
+                                                                        Assignee
+                                                                    </th>
+                                                                    <th></th>
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr role="row" class="right-bar-toggle" for="form1">
+                                                                    <td>
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input"
+                                                                                id="customCheck3">
+                                                                            <label class="custom-control-label"
+                                                                                for="customCheck3">&nbsp;</label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="invoice-number">
+                                                                        622
+                                                                    </td>
+                                                                    <td>
+                                                                        EPISAVEURS AQUITAINE
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge blue">Open for
+                                                                            Approval</span>
+                                                                    </td>
+                                                                    <td class="sorting_1">670.50€</td>
+                                                                    <td>
+                                                                        <span class="small-badge">0</span>
+                                                                    </td>
+                                                                    <td>
+                                                                        02/Aug/2022
+                                                                    </td>
+                                                                    <td>
+                                                                        22/Jan/2023
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge badge-soft-danger">30
+                                                                            days</span>
+                                                                    </td>
+                                                                    <td class="table-user">
+                                                                        <img src="../assets/images/home-page/user-1.png"
+                                                                            alt="table-user"
+                                                                            class="rounded-circle user-image">
+                                                                        <a href="javascript:void(0);"
+                                                                            class="text-body font-weight-semibold user-name">Georgia
+                                                                            Carter</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <img src="../assets/images/home-page/next-arrow.png"
+                                                                            alt="icon" class="next-arrow">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr role="row" class="right-bar-toggle">
+                                                                    <td>
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input"
+                                                                                id="customCheck4">
+                                                                            <label class="custom-control-label"
+                                                                                for="customCheck4">&nbsp;</label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="invoice-number">
+                                                                        8375004210
+                                                                    </td>
+                                                                    <td>
+                                                                        PASSIONFROID PARIS SUD
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge blue">Open for
+                                                                            Approval</span>
+                                                                    </td>
+                                                                    <td class="sorting_1">1064.70€</td>
+                                                                    <td>
+                                                                        <span class="small-badge">0</span>
+                                                                    </td>
+                                                                    <td>
+                                                                        10/Sep/2022
+                                                                    </td>
+                                                                    <td>
+                                                                        22/Dec/2022
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge lightRed">60 days</span>
+                                                                    </td>
+                                                                    <td class="table-user">
+                                                                        <img src="../assets/images/home-page/user-1.png"
+                                                                            alt="table-user"
+                                                                            class="rounded-circle user-image">
+                                                                        <a href="javascript:void(0);"
+                                                                            class="text-body font-weight-semibold user-name">Georgia
+                                                                            Carter</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <img src="../assets/images/home-page/next-arrow.png"
+                                                                            alt="icon" class="next-arrow">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr role="row" class="right-bar-toggle">
+                                                                    <td>
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input"
+                                                                                id="customCheck5">
+                                                                            <label class="custom-control-label"
+                                                                                for="customCheck5">&nbsp;</label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="invoice-number">
+                                                                        0224812
+                                                                    </td>
+                                                                    <td>
+                                                                        PASSIONFROID SUD OUEST
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge green">Payment
+                                                                            Required</span>
+                                                                    </td>
+                                                                    <td class="sorting_1">2570.40€</td>
+                                                                    <td>
+                                                                        <span class="small-badge">0</span>
+                                                                    </td>
+                                                                    <td>
+                                                                        25/Jul/2022
+                                                                    </td>
+                                                                    <td>
+                                                                        15/Jan/2023
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge lightRed">60 days</span>
+                                                                    </td>
+                                                                    <td class="table-user">
+                                                                        <img src="../assets/images/home-page/user-1.png"
+                                                                            alt="table-user"
+                                                                            class="rounded-circle user-image">
+                                                                        <a href="javascript:void(0);"
+                                                                            class="text-body font-weight-semibold user-name">Marian
+                                                                            Barrett</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <img src="../assets/images/home-page/next-arrow.png"
+                                                                            alt="icon" class="next-arrow">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr role="row" class="right-bar-toggle">
+                                                                    <td>
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input"
+                                                                                id="customCheck6">
+                                                                            <label class="custom-control-label"
+                                                                                for="customCheck6">&nbsp;</label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="invoice-number">
+                                                                        8271159528
+                                                                    </td>
+                                                                    <td>
+                                                                        FRAICHADOUR
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge green">Payment
+                                                                            Required</span>
+                                                                    </td>
+                                                                    <td class="sorting_1">246.00€</td>
+                                                                    <td>
+                                                                        <span class="small-badge">0</span>
+                                                                    </td>
+                                                                    <td>
+                                                                        15/Jul/2022
+                                                                    </td>
+                                                                    <td>
+                                                                        18/Aug/2022
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge darkRed">-56 days</span>
+                                                                    </td>
+                                                                    <td class="table-user">
+                                                                        <img src="../assets/images/home-page/user-1.png"
+                                                                            alt="table-user"
+                                                                            class="rounded-circle user-image">
+                                                                        <a href="javascript:void(0);"
+                                                                            class="text-body font-weight-semibold user-name">Marian
+                                                                            Barrett</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <img src="../assets/images/home-page/next-arrow.png"
+                                                                            alt="icon" class="next-arrow">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr role="row" class="right-bar-toggle">
+                                                                    <td>
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input"
+                                                                                id="customCheck7">
+                                                                            <label class="custom-control-label"
+                                                                                for="customCheck7">&nbsp;</label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="invoice-number">
+                                                                        147344
+                                                                    </td>
+                                                                    <td>
+                                                                        AXURIA
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge yellow">Pending for
+                                                                            Approval</span>
+                                                                    </td>
+                                                                    <td class="sorting_1">1595.30€</td>
+                                                                    <td>
+                                                                        <span class="small-badge">0</span>
+                                                                    </td>
+                                                                    <td>
+                                                                        02/Aug/2022
+                                                                    </td>
+                                                                    <td>
+                                                                        05/Aug/2022
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge darkRed">-57 days</span>
+                                                                    </td>
+                                                                    <td class="table-user">
+                                                                        <img src="../assets/images/home-page/user-1.png"
+                                                                            alt="table-user"
+                                                                            class="rounded-circle user-image">
+                                                                        <a href="javascript:void(0);"
+                                                                            class="text-body font-weight-semibold user-name">Chad
+                                                                            Abbott</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <img src="../assets/images/home-page/next-arrow.png"
+                                                                            alt="icon" class="next-arrow">
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="table-footer-button">
+                                                <button class="btn active" onclick="window.location.href = './batch-view.html'; ">Batch View</button>
+                                            </div>
+                                            <div class="pagination-part">
+                                                <div class="left-part">
+                                                    <div class="dataTables_info" id="products-datatable_info"
+                                                        role="status" aria-live="polite">
+                                                        Showing customers 1 to 10 of 12
+                                                    </div>
+                                                </div>
+                                                <div class="right-part">
+                                                    <div class="dataTables_paginate paging_simple_numbers"
+                                                        id="products-datatable_paginate">
+                                                        <ul class="pagination pagination-rounded mb-0">
+                                                            <li class="paginate_button page-item previous disabled"
+                                                                id="products-datatable_previous">
+                                                                <a href="#" aria-controls="products-datatable"
+                                                                    data-dt-idx="0" tabindex="0" class="page-link">
+                                                                    <i class="mdi mdi-chevron-left"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="paginate_button page-item active">
+                                                                <a href="#" aria-controls="products-datatable"
+                                                                    data-dt-idx="1" tabindex="0" class="page-link">1</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item ">
+                                                                <a href="#" aria-controls="products-datatable"
+                                                                    data-dt-idx="2" tabindex="0" class="page-link">2</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item next"
+                                                                id="products-datatable_next">
+                                                                <a href="#" aria-controls="products-datatable"
+                                                                    data-dt-idx="3" tabindex="0" class="page-link">
+                                                                    <i class="mdi mdi-chevron-right"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end card-body-->
+                            </div> <!-- end card-->
+                        </div> <!-- end col -->
+                    </div>
+                    <!-- transaction history table -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="">
+                                        <div id="products-datatable_wrapper"
+                                            class="dataTables_wrapper dt-bootstrap4 no-footer">
+                                            <h3 class="table-title">Transaction History</h3>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6 offset-md-6">
+                                                    <div id="products-datatable_filter" class="dataTables_filter">
+                                                        <input type="search"
+                                                            class="form-control form-control-sm search-box"
+                                                            placeholder="Search" aria-controls="products-datatable">
+                                                        <div class="serach-icon-box">
+                                                            <img src="../assets/images/home-page/search.png"
+                                                                alt="search" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2 mb-3">
+                                                <div class="col-sm-12 col-md-2">
+                                                    <div class="dataTables_length" id="products-datatable_length">
+                                                        <label>Show
+                                                            <select
+                                                                class="custom-select custom-select-sm select-number-dropdown ml-1 mr-1">
+                                                                <option value="10">25</option>
+                                                                <option value="20">50</option>
+                                                                <option value="-1">All</option>
+                                                            </select>
+                                                            entries
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-centered dt-responsive nowrap w-100"
+                                                            id="products-datatable">
+                                                            <thead>
+                                                                <tr role="row">
+                                                                    <th class="sorting">
+                                                                        Invoice Number
+                                                                    </th>
+                                                                    <th class="sorting">
+                                                                        Supplier Name
+                                                                    </th>
+                                                                    <th class="status-part">
+                                                                        Status
+                                                                        <div class="dot-part">
+                                                                            <span class="status-dot green-dot"></span>
+                                                                            <span
+                                                                                class="status-dot lightGreen-dot"></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th class="sorting">
+                                                                        Payment Amount
+                                                                    </th>
+                                                                    <th class="sorting_asc">
+                                                                        Payment Date
+                                                                    </th>
+                                                                    <th class="sorting">
+                                                                        Payment Method
+                                                                    </th>
+                                                                    <th>
+                                                                        Assignee
+                                                                    </th>
+                                                                    <th></th>
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr role="row">
+
+                                                                    <td class="invoice-number">
+                                                                        3MW1JGUVQN
+                                                                    </td>
+                                                                    <td>
+                                                                        BALTHAZAR
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge darkGreen">Payment
+                                                                            Completed</span>
+                                                                    </td>
+                                                                    <td class="sorting_1">120.66€</td>
+                                                                    <td>
+                                                                        02/Jul/2022
+                                                                    </td>
+                                                                    <td>
+                                                                        <img src="../assets/images/home-page/wireframe.png"
+                                                                            alt="wire-frame">
+                                                                        Wire Transfer
+                                                                    </td>
+                                                                    <td class="table-user">
+                                                                        <img src="../assets/images/home-page/user-1.png"
+                                                                            alt="table-user"
+                                                                            class="rounded-circle user-image">
+                                                                        <a href="javascript:void(0);"
+                                                                            class="text-body font-weight-semibold user-name">Georgia
+                                                                            Carter</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <img src="../assets/images/home-page/menu.png"
+                                                                            alt="menu-icon">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr role="row">
+                                                                    <td class="invoice-number">
+                                                                        3MW1JGUVQN
+                                                                    </td>
+                                                                    <td>
+                                                                        BALTHAZAR
+                                                                    </td>
+                                                                    <td>
+                                                                        <span class="badge darkGreen">Payment
+                                                                            Completed</span>
+                                                                    </td>
+                                                                    <td class="sorting_1">120.66€</td>
+                                                                    <td>
+                                                                        02/Jul/2022
+                                                                    </td>
+                                                                    <td>
+                                                                        <img src="../assets/images/home-page/wireframe.png"
+                                                                            alt="wire-frame">
+                                                                        Wire Transfer
+                                                                    </td>
+                                                                    <td class="table-user">
+                                                                        <img src="../assets/images/home-page/user-1.png"
+                                                                            alt="table-user"
+                                                                            class="rounded-circle user-image">
+                                                                        <a href="javascript:void(0);"
+                                                                            class="text-body font-weight-semibold user-name">Georgia
+                                                                            Carter</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <img src="../assets/images/home-page/menu.png"
+                                                                            alt="menu-icon">
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pagination-part">
+                                                <div class="left-part">
+                                                    <div class="dataTables_info" id="products-datatable_info"
+                                                        role="status" aria-live="polite">
+                                                        Showing customers 1 to 10 of 12
+                                                    </div>
+                                                </div>
+                                                <div class="right-part">
+                                                    <div class="dataTables_paginate paging_simple_numbers"
+                                                        id="products-datatable_paginate">
+                                                        <ul class="pagination pagination-rounded mb-0">
+                                                            <li class="paginate_button page-item previous disabled"
+                                                                id="products-datatable_previous">
+                                                                <a href="#" aria-controls="products-datatable"
+                                                                    data-dt-idx="0" tabindex="0" class="page-link">
+                                                                    <i class="mdi mdi-chevron-left"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="paginate_button page-item active">
+                                                                <a href="#" aria-controls="products-datatable"
+                                                                    data-dt-idx="1" tabindex="0" class="page-link">1</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item ">
+                                                                <a href="#" aria-controls="products-datatable"
+                                                                    data-dt-idx="2" tabindex="0" class="page-link">2</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item next"
+                                                                id="products-datatable_next">
+                                                                <a href="#" aria-controls="products-datatable"
+                                                                    data-dt-idx="3" tabindex="0" class="page-link">
+                                                                    <i class="mdi mdi-chevron-right"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end card-body-->
+                            </div> <!-- end card-->
+                        </div> <!-- end col -->
+                    </div>
+
+
+                </div> <!-- container -->
+
+            </div> <!-- content -->
+
+
+        </div>
+
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
+
+
+    </div>
+    <!-- END wrapper -->
+
+    <!-- Right Sidebar -->
+    <div class="custom-body form1">
+        <div class="right-bar">
+            <div class="right-bar-container">
+                <div class="sidebar-content form-1">
+                    <div class="invoice-number">
+                        <div class="no-status">
+                            <h3>Invoice | 8375004210</h3>
+                            <span class="badge blue status-part">Open for Approval</span>
+                        </div>
+                        <div class="close-icon">
+                            <img src="../assets/images/home-page/close.png" alt="close-icon">
+                        </div>
+                    </div>
+                    <div class="invoice-card">
+                        <div class="invoice-number-part">
+                            <div class="number">
+                                <h6>Invoice due on</h6>
+                                <span class="badge yellow">Monday, August 22nd 2022</span>
+                            </div>
+                            <div class="link-part">
+                                <a href="#">Go to Payment<img src="../assets/images/home-page/left-arrow.png"
+                                        alt="next-arrow"></a>
+                            </div>
+                        </div>
+                        <div class="invoice-details-part">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="detials-part">
+                                        <label>Invoice Date:</label>
+                                        <p>Tuesday, August 2nd 2022</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="detials-part">
+                                        <label>Updated on:</label>
+                                        <p>Tuesday, October 18th 2022</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="detials-part">
+                                        <label>Status</label>
+                                        <div class="form-group status-dropdown">
+                                            <select class="selectize-drop-header">
+                                                <option value="open">Open</option>
+                                                <option value="close">clsoe</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="detials-part">
+                                        <label>Imported by:</label>
+                                        <p><img src="../assets/images/home-page/user-1.png" alt="user">Melvin Brewer</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="detials-part">
+                                        <label>Total Balance Due:</label>
+                                        <h3 class="balance-no">1064.70€</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="detials-part">
+                                        <label>Supplier Name:</label>
+                                        <p>PASSIONFROID PARIS SUD</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <div class="detials-part">
+                                        <label>Assigned to:</label>
+                                        <div class="form-group assign-dropdown">
+                                            <select class="selectize-drop-header">
+                                                <option value="open">Georgia Carter</option>
+                                                <option value="close">Georgia Carter 2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <div class="detials-part">
+                                        <label>Invoice Pre-analysis:</label>
+                                        <p>The invoice has been reconciled with the deliveries forms, we have notice
+                                            <span class="small-badge">0</span> discrepancies. Check the Reconciliation
+                                            before approval.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="invoice-card">
+                        <div class="invoice-number-part">
+                            <div class="number">
+                                <h6>Attachments</h6>
+                            </div>
+                        </div>
+                        <div class="invoice-details-part">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="detials-part">
+                                        <label>Invoice Date:</label>
+                                        <div class="card m-1 shadow-none border">
+                                            <div class="p-2">
+                                                <div class="row align-items-center">
+                                                    <div class="pdf-icon-part">
+                                                        <div class="avatar-part">
+                                                            <span class="pdf-square">
+                                                                <p class="pdf-text">pdf</p>
+                                                            </span>
+                                                            <p class="file-name">
+                                                                1SOUFACTURW0000581003202208028375004210.pdf.pdf</p>
+                                                        </div>
+                                                        <div class="download-pdf-part pr-3">
+                                                            <img src="../assets/images/home-page/download.png"
+                                                                alt="download">
+                                                        </div>
+                                                    </div>
+
+                                                </div> <!-- end row -->
+                                            </div> <!-- end .p-2-->
+                                        </div> <!-- end col -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="invoice-footer-btn">
+                        <button class="invoice-overlay-button right-bar-toggle" for="form3">
+                            <img src="../assets/images/home-page/button-checkmark.png" alt="button-checkmark">Approve
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+    </div>
+   
+    <!-- form-3 -->
+    <div class="custom-body form3">
+        <div class="right-bar">
+            <div class="right-bar-container">
+                <div class="sidebar-content form-3">
+                    <div class="invoice-number">
+                        <div class="no-status">
+                            <h3>Invoice | 8375004210</h3>
+                            <span class="badge green status-part">Open for Approval</span>
+                        </div>
+                        <div class="close-icon">
+                            <img src="../assets/images/home-page/close.png" alt="close-icon">
+                        </div>
+                    </div>
+                    <div class="invoice-card">
+                        <div class="invoice-number-part">
+                            <div class="number">
+                                <h6>Invoice due on</h6>
+                                <span class="badge yellow">Monday, August 22nd 2022</span>
+                            </div>
+                            <div class="link-part">
+                                <a href="#"><img src="../assets/images/home-page/right-arrow.png" class="go-back"
+                                alt="next-arrow">Go Back</a>
+                            </div>
+                        </div>
+                        <div class="invoice-details-part">
+                            <div class="row">
+
+                                <div class="col-md-12">
+                                    <div class="detials-part">
+                                        <label>Current Balance Due:</label>
+                                        <h3 class="balance-no">1064.70€</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="detials-part">
+                                        <label>Payment Amount:</label>
+                                        <div class="currency-history-part">
+                                            <div class="input-info-part">
+                                                <div class="form-group amount-input">
+                                                    <input type="text" class="amount-input-box" />
+                                                    <p class="currency">€</p>
+                                                </div>
+                                            </div>
+                                            <div class="payment-history">
+                                                <a href="#">Payment History</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <div class="detials-part">
+                                        <label>Payment Method:</label>
+                                        <div class="form-group assign-dropdown">
+                                            <select class="selectize-drop-header">
+                                                <option value="open">Online</option>
+                                                <option value="close">Wireframe</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <div class="detials-part">
+                                        <label>Payment Date:</label>
+                                        <div class="form-group">
+                                            <div class="input-group input-group-sm">
+                                                <input type="text" class="form-control date-picker-input border"
+                                                    id="dash-daterange">
+                                                <div class="input-group-append">
+                                                    <span
+                                                        class="input-group-text calendar-icon-block bg-blue border-blue text-white">
+                                                        <img src="../assets/images/home-page/calendar.png"
+                                                            alt="calendar-icon">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="invoice-footer-btn">
+                        <button class="invoice-overlay-button right-bar-toggle" for="form4">
+                            <img src="../assets/images/home-page/button-checkmark.png" alt="button-checkmark">Comfirm
+                            Payment
+                        </button>
+                        <div class="pay-later-link">
+                            <a href="#" class="active">Pay later</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+    </div>
+    <!-- form-4 -->
+    <div class="custom-body form4">
+        <div class="right-bar">
+            <div class="right-bar-container">
+                <div class="sidebar-content form-4">
+                    <div class="invoice-number">
+                        <div class="no-status">
+                            <h3>Invoice | 8375004210</h3>
+                            <span class="badge green status-part">Open for Approval</span>
+                        </div>
+                        <div class="close-icon">
+                            <img src="../assets/images/home-page/close.png" alt="close-icon">
+                        </div>
+                    </div>
+                    <div class="invoice-card">
+                        <div class="invoice-number-part">
+                            <div class="number">
+                                <h6>Invoice due on</h6>
+                                <span class="badge yellow">Monday, August 22nd 2022</span>
+                            </div>
+                            <div class="link-part">
+                                <a href="#"><img src="../assets/images/home-page/right-arrow.png" class="go-back"
+                                        alt="next-arrow">Go Back</a>
+                            </div>
+                        </div>
+                        <div class="invoice-details-part">
+                            <div class="row">
+
+                                <div class="col-md-12">
+                                    <div class="detials-part">
+                                        <label>Current Balance Due:</label>
+                                        <h3 class="balance-no">1064.70€</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="detials-part">
+                                        <label>Payment Amount:</label>
+                                        <div class="currency-history-part">
+                                            <div class="input-info-part">
+                                                <div class="form-group amount-input">
+                                                    <input type="text" class="amount-input-box" />
+                                                    <p class="currency">€</p>
+                                                </div>
+                                                <p class="parial-payment-text"><img
+                                                        src="../assets/images/home-page/info.png">Partial Payment </p>
+                                            </div>
+                                            <div class="payment-history">
+                                                <a href="#">Payment History</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <div class="detials-part">
+                                        <label>Payment Method:</label>
+                                        <div class="form-group assign-dropdown">
+                                            <select class="selectize-drop-header">
+                                                <option value="open">Online</option>
+                                                <option value="close">Wireframe</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <div class="detials-part">
+                                        <label>Payment Date:</label>
+                                        <div class="form-group">
+                                            <div class="input-group input-group-sm">
+                                                <input type="text" class="form-control date-picker-input border"
+                                                    id="dash-daterange">
+                                                <div class="input-group-append">
+                                                    <span
+                                                        class="input-group-text calendar-icon-block bg-blue border-blue text-white">
+                                                        <img src="../assets/images/home-page/calendar.png"
+                                                            alt="calendar-icon">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="invoice-footer-btn">
+                        <button class="invoice-overlay-button right-bar-toggle" for="form5">
+                            <img src="../assets/images/home-page/button-checkmark.png" alt="button-checkmark">Comfirm
+                            Payment
+                        </button>
+                        <div class="pay-later-link">
+                            <a href="#" class="active">Pay later</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+    </div>
+    <!-- form-5 -->
+    <div class="custom-body form5">
+        <div class="right-bar">
+            <div class="right-bar-container">
+                <div class="sidebar-content form-5">
+                    <div class="invoice-number">
+                        <div class="no-status">
+                            <h3>Invoice | 8375004210</h3>
+                            <span class="badge green status-part">Open for Approval</span>
+                        </div>
+                        <div class="close-icon">
+                            <img src="../assets/images/home-page/close.png" alt="close-icon">
+                        </div>
+                    </div>
+                    <div class="invoice-card information-card">
+                        <h3>Payment Confirmed!</h3>
+                        <p class="information">You just made a <span>partial payment</span> to Invoice
+                            <strong>8375004210</strong></p>
+                        <p class="information">Current Balance due: <strong>500 €</strong></p>
+                        <div class="link-part">
+                            <a href="#">Payment History</a>
+                        </div>
+                    </div>
+                    <div class="invoice-footer-btn">
+                        <button class="invoice-overlay-button close-icon">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+    </div>
+    <!-- /Right-bar -->
+
+    <!-- Vendor js -->
+    <script src="../assets/js/vendor.min.js"></script>
+
+    <!-- Plugins js-->
+    <script src="../assets/libs/chartist/chartist.min.js"></script>
+    <script src="../assets/libs/chartist-plugin-tooltips/chartist-plugin-tooltip.min.js"></script>
+    <script src="../assets/js/chartist-bar-labels.js"></script>
+    <script src="../assets/libs/flatpickr/flatpickr.min.js"></script>
+
+    <script src="../assets/libs/selectize/js/standalone/selectize.min.js"></script>
+    <script src="../assets/libs/select2/js/select2.min.js"></script>
+    <script src="../assets/libs/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="../assets/libs/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
+
+    <script src="../assets/libs/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <script src="../assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="../assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js"></script>
+
+    <script src="../assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+    <script src="../assets/libs/jquery-datatables-checkboxes/js/dataTables.checkboxes.min.js"></script>
+
+    <!-- Init js-->
+    <script src="../assets/js/pages/form-advanced.init.js"></script>
+
+    <!-- Dashboard 2 init -->
+
+    <!-- <script src="../assets/js/pages/dashboard-1.init.js"></script> -->
+    <script src="../assets/js/pages/dashboard-2.init.js"></script>
+    <script src="../assets/js/pages/customers.init.js"></script>
+    <!-- <script src="../assets/js/pages/chartist.init.js"></script> -->
+    <script src="../assets/js/chartist-plugin-legend.js"></script>
+    <!-- App js-->
+
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/custom.js"></script>
+
+</body>
+
+</html>
