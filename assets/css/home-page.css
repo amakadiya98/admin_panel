@@ -1,0 +1,844 @@
+body{
+    font-family: 'Ubuntu' !important;
+}
+.navbar-custom{
+    height: 56px;
+}
+.navbar-custom .button-menu-mobile{
+    height: 56px;
+    line-height: normal;
+}
+.logo-box{
+    height: 56px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-box .logo{
+    line-height: normal;
+}
+.logo-box .brand-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+.left-side-menu{
+    top: 56px;
+    width: 190px;
+    padding: 15px 0;
+}
+#sidebar-menu .menu-title{
+    font-family: "Cerebri Sans,sans-serif";;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #6F768C;
+    padding: 10px 16px;
+}
+#sidebar-menu > ul > li > a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F768C;
+    padding: 12px 16px;
+}
+.nav-second-level li a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6F768C;
+    padding: 11px 15px;
+}
+.content-page{
+    margin-left: 190px;
+    margin-top: 56px;
+}
+.page-title-box .page-title{
+font-family: "Cerebri Sans,sans-serif";
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+color: #3A4149;
+}
+.page-title-box .breadcrumb .breadcrumb-item a{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3A4149;
+}
+.page-title-box .breadcrumb .breadcrumb-item.active a{
+    color: rgba(111, 118, 140, 0.5);
+}
+
+/* page specific css start here */
+.card-box .avatar-sm{
+    height: 72px;
+    width: 72px;
+    border-radius: 50% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-box .avatar-sm.bg-blue{
+    background-color: #6B65D8 !important;
+}
+.card-box .avatar-sm.bg-orange{
+    background-color: #ECBA5F !important;
+}
+.card-box .text-right .text-dark{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3A4149;
+}
+.card-box .text-right .text-muted{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(111, 118, 140, 0.5);
+}
+/* table design */
+.dataTables_wrapper .dataTables_length label{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3A4149;
+    display: flex;
+    align-items: center;
+}
+.dataTables_wrapper .dataTables_length .select-number-dropdown{
+    width: 68px;
+}
+.table-title {
+    font-family: "Cerebri Sans,sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #3A4149;
+}
+.dataTables_wrapper .table-title{
+    font-family: "Cerebri Sans,sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #3A4149;
+}
+.dataTables_wrapper .dataTables_filter .search-box{
+    border: 1px solid rgba(111, 118, 140, 0.3);
+    border-radius: 3px;
+    height: 38px;
+    border-radius: 3px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(58, 65, 73, 0.3);
+    width: 100%;
+}
+.dataTables_wrapper .dataTables_filter .serach-icon-box{
+    position: absolute;
+    right: 6px;
+    top: 0;
+    background: #3A4149;
+    border-radius: 3px;
+    width: 44px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.dataTables_wrapper .dataTables_filter .search-box::placeholder{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(58, 65, 73, 0.3);
+}
+.dataTables_info{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3A4149;
+}
+.table thead th{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3A4149;
+    border-bottom: 0;
+}
+.table tbody tr:hover{
+    background-color: #F3F4F7;
+    cursor: pointer;
+}
+.table tbody td{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6F768C;
+}
+.table tbody td.invoice-number{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B65D8;
+}
+.pagination-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.badge{
+    padding: 2px 6px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+.badge.blue{
+    background: #6B65D8;
+}
+.badge.green{
+    background: #52A9BE;
+}
+.badge.darkGreen{
+    background: #00B393;
+}
+.badge.yellow{
+    background: #ECBA5F;
+}
+.badge.lightRed{
+    background: rgba(221, 103, 117, 0.3);
+}
+.badge.darkRed{
+    background: #DD6775;
+}
+.status-part{
+    display: flex;
+    align-items: center;
+}
+.status-part .dot-part{
+    display: flex;
+    margin-left: 10px;
+}
+.status-dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.status-dot.blue-dot{
+    background: #6B65D8;
+}
+.status-dot.green-dot{
+    background: #52A9BE;
+}
+.status-dot.lightGreen-dot{
+    background: #00B393;
+}
+.status-dot.yellow-dot{
+    background: #ECBA5F;
+}
+.small-badge{
+    padding: 2px 4px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6F768C;
+    border-radius: 3px;
+}
+.table-user .user-image{
+    margin-right: 10px;
+    height: 24px !important;
+    width: 24px !important;
+}
+.table-user .user-name{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6F768C;
+}
+.table-footer-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 20px;
+}
+.table-footer-button button{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(111, 118, 140, 0.3);
+    padding: 8px 14px;
+    background: #F4F7F9;
+    border-radius: 3px;
+}
+.table-footer-button button.active{
+    background: #00B393;
+    color: #fff;
+}
+
+/* right sidebar part css */
+.right-bar{
+    width: 0;
+    right: 0;
+    top: -10px;
+    background-color: #F3F4F6;
+    overflow-y: auto;
+}
+.right-bar-enabled .right-bar{
+    width: 60%;
+}
+.right-bar .right-bar-container{
+    background-color: #F3F4F6;
+    padding: 65px;
+}
+.sidebar-content .invoice-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-content .invoice-number .no-status{
+    display: flex;
+    align-items: center;
+}
+.sidebar-content .invoice-number .no-status .status-part{
+    margin-left: 10px;
+}
+.sidebar-content .invoice-number .close-icon{
+    cursor: pointer;
+}
+.sidebar-content .invoice-number h3{
+    font-family: "Cerebri Sans,sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #3A4149;
+}
+.sidebar-content .invoice-card{
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 28px 32px;
+    margin-top: 20px;
+}
+.sidebar-content .invoice-card .invoice-number-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar-content .invoice-card .invoice-number-part .number{
+    display: flex;
+    align-items: center;
+}
+.sidebar-content .invoice-card .invoice-number-part .number h6{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3A4149;
+    margin-right: 8px;
+}
+.sidebar-content .invoice-card .invoice-number-part .link-part a{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #6B65D8;
+}
+.sidebar-content .invoice-card .invoice-number-part .link-part a img.go-back{
+    margin-right: 4px;
+}
+.sidebar-content .invoice-card .invoice-number-part .link-part a img{
+    margin-left: 4px;
+}
+.sidebar-content .invoice-details-part .detials-part{
+    margin: 24px 0 0;
+}
+.sidebar-content .invoice-details-part .detials-part label{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6F768C;
+    margin-bottom: 0;
+}
+.sidebar-content .invoice-details-part .detials-part p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6F768C;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.sidebar-content .invoice-details-part .detials-part p img{
+    margin-right: 8px;
+}
+.sidebar-content .invoice-details-part .detials-part .form-group{
+    margin-top: 8px;
+    margin-bottom: 0
+}
+.sidebar-content .invoice-details-part .detials-part .balance-no{
+    font-family: "Cerebri Sans,sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3A4149;
+}
+.selectize-dropdown-header{
+    display: none;
+}
+.status-dropdown .selectize-input .item{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6F768C;
+}
+.status-dropdown .selectize-input{
+    border-radius: 3px !important;
+    width: 80px !important;
+    background-color: #F8FAFB !important;
+    border: 0px;
+}
+.status-dropdown .selectize-control.single .selectize-input:after{
+    border-width: 0 1px 1px 0;
+    border-color: transparent #6F768C #6F768C transparent;
+}
+.assign-dropdown .selectize-input{
+    height: 38px;
+    border: 1px solid rgba(111, 118, 140, 0.3);
+    border-radius: 3px; 
+}
+.assign-dropdown .selectize-input .item{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6F768C;
+}
+.assign-dropdown .selectize-control.single .selectize-input:after{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid #3A4149;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    transform: rotate(0deg);
+    right: 10px;
+    top: 55%;
+}
+.assign-dropdown .selectize-control.single .selectize-input.input-active::after{
+    transform: rotate(180deg);
+}
+.invoice-overlay-button{
+    padding: 8px 12px !important;
+    background-color: #00B393 !important;
+    border-radius: 3px !important;
+    border: 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-top: 28px !important;
+}
+.invoice-overlay-button.disable{
+    background: #F4F7F9 !important;
+    border-radius: 3px;
+    color: rgba(111, 118, 140, 0.3) !important;
+}
+.invoice-footer-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.invoice-overlay-button img{
+    margin-right: 10px;
+}
+.invoice-footer-btn .pay-later-link{
+    margin-top: 10px;
+}
+.invoice-footer-btn .pay-later-link a{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #6F768C;
+    opacity: 0.3;
+}
+.invoice-footer-btn .pay-later-link a.active{
+    opacity: 1;
+}
+.sidebar-content .invoice-details-part .detials-part .form-group.amount-input{
+   position: relative;
+   width: 96px;
+   background: #FFFFFF;
+   border: 1px solid rgba(111, 118, 140, 0.3);
+   border-radius: 3px;
+}
+.amount-input .amount-input-box{
+   border-color: transparent;
+    height: 38px;
+    padding: 8px;
+    width: 80px;
+}
+.amount-input .amount-input-box:focus{
+    outline: 0;
+}
+.amount-input p.currency{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #6F768C;
+    position: absolute;
+    top: 0;
+    right: 7px;
+}
+.amount-input .payment-history a{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: rgba(111, 118, 140, 0.3);
+}
+.currency-history-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.currency-history-part .input-info-part{
+    display: flex;
+    align-items: flex-end;
+}
+.right-bar-container .invoice-details-part .detials-part .currency-history-part .input-info-part img{
+    margin-right: 3px;
+    margin-left: 8px;
+}
+.right-bar-container .invoice-details-part .detials-part .currency-history-part .input-info-part .parial-payment-text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    color: #00B393;
+}
+.currency-history-part .payment-history a{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: rgba(111, 118, 140, 0.3);
+}
+.invoice-card.information-card{
+    text-align: center;
+}
+.invoice-card.information-card h3{
+    font-family: "Cerebri Sans,sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #3A4149;
+}
+.invoice-card.information-card .information{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3A4149;
+}
+.invoice-card.information-card .information span{
+    color: #00B393;
+    font-weight: 500;
+}
+.invoice-card.information-card .link-part a{
+    display: block;
+    margin-top: 48px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #6F768C;
+}
+.status-table-dropdown{
+    margin-left: 30px;
+}
+.status-table-dropdown button{
+    padding: 0;
+    line-height: normal;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(111, 118, 140, 0.5);
+    border-radius: 3px;
+    width: 24px;
+    height: 24px;
+}
+.status-table-dropdown button:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.status-table-dropdown button::after{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    margin-left: 0px;
+    margin-top: 6px;
+}
+.status-table-dropdown .dropdown-menu{
+    padding: 10px 12px;
+    width: 200px    ;
+}
+.status-table-dropdown .dropdown-menu.show{
+    left: -175px !important;
+    top: 37px !important;
+}
+.status-table-dropdown .dropdown-menu li a{
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+}
+.pdf-icon-part{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+}
+.pdf-icon-part .download-pdf-part{
+    cursor: pointer;
+}
+.pdf-icon-part .avatar-part {
+    display: flex;
+    align-items: center;
+}
+.pdf-icon-part .avatar-part .pdf-square{
+    background: #d2d1f5;
+    border-radius: 3px;
+    width: 36px;
+    height: 40px;
+    text-align: center;
+}
+.pdf-icon-part .avatar-part .file-name{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6F768C;
+    margin-left: 8px;
+    margin-top: 0 !important;
+}
+.pdf-icon-part .avatar-part .pdf-square .pdf-text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B65D8;
+}
+.right-bar .right-bar-toggle {
+    background-color: inherit;
+    height: auto;
+    width: auto;
+    line-height: auto;
+    color: auto;
+    text-align: inherit;
+    border-radius: auto;
+    margin-top: inherit;
+    border-radius: inherit;
+}
+
+.ct-bar {
+    stroke-width: 2px;
+    stroke: #3B7AC9 !important;
+    padding-bottom: 140px;
+ }
+ .ct-bar-label{
+     stroke: #00000050 !important;
+ }
+.ct-label {
+    width: 40px !important;
+    word-wrap: normal;
+}
+.ct-series-a .ct-slice-pie {
+    fill: #3B7AC9;
+    opacity: 0.6;
+}
+.ct-series-b .ct-slice-pie {
+    fill: #3B7AC9;
+}
+.ct-series-c .ct-slice-pie {
+    fill: #3B7AC9;
+    opacity: 0.4;
+}
+.ct-series-d .ct-slice-pie {
+    fill: #3B7AC9;
+    opacity: 0.8;
+}
+.ct-series-e .ct-slice-pie {
+    fill: #3B7AC9;
+    opacity: 0.2;
+}
+.graph-part{
+    display: grid;
+}
+.pie-chart .ct-legend{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: auto;
+    position: absolute;
+    bottom: -75px;
+    width: 100%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    padding: 0;
+    color: #6F768C;
+    list-style-type: none;
+    left: 8px
+}
+.pie-chart .ct-legend li{
+    position: relative;
+}
+.pie-chart .ct-legend li::before{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    left: -12px;
+}
+.pie-chart .ct-legend li:first-child::before{
+    background: #3B7AC9;
+}
+.pie-chart .ct-legend li:nth-child(2):before{
+    background: #3B7AC9;
+    opacity: 0.8;
+}
+.pie-chart .ct-legend li:nth-child(3):before{
+    background: #3B7AC9;
+    opacity: 0.6;
+}
+.pie-chart .ct-legend li:nth-child(4):before{
+    background: #3B7AC9;
+    opacity: 0.4;
+}
+.pie-chart .ct-legend li:nth-child(5):before{
+    background: #3B7AC9;
+    opacity: 0.2;
+}
+.date-picker-input{
+    height: 38px !important;
+    border: 1px solid rgba(111, 118, 140, 0.3) !important;
+    border-radius: 3px !important;
+}
+.calendar-icon-block{
+    background: #F7F7F7 !important;
+    border-color: rgba(111, 118, 140, 0.3) !important;
+}
+
+@media screen and (max-width:1024px) {
+    .right-bar-enabled .right-bar{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .right-bar-enabled .right-bar{
+        width: 95%;
+    }
+    .right-bar .right-bar-container {
+        padding: 25px;
+    }
+    .invoice-number-part{
+        flex-wrap: wrap;
+    }
+    .pdf-icon-part .avatar-part .file-name{
+        word-break: break-all;
+        max-width: 66%;
+    }
+}

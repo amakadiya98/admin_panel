@@ -1,0 +1,133 @@
+.batch-view-content-part.content-page{
+    padding: 0 15px 30px;
+}
+
+.batch-view-content .invoice-card{
+    padding: 17px 22px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.batch-view-content .invoice-card:last-child{
+    margin-bottom: 0;
+}
+.batch-view-content .pdf-icon-part .avatar-part .file-name{
+    word-break: break-all;
+    max-width: 66%;
+}
+.batch-view-content .invoice-overlay-button{
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+.batch-view-content .payment-history{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: rgba(111, 118, 140, 0.3);
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+.batch-view-content .payment-history.active{
+    color: #6F768C;
+}
+.batch-view-content .batch-view-form-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.batch-view-title .page-title.small-title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F768C;
+}
+.invoice-card-title-number{
+    font-family: "Cerebri Sans,sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #3A4149;
+    margin-top: -22px;
+    margin-bottom: 20px;
+}
+.batch-view-form-link{
+    position: relative;
+}
+.batch-view-form-link .link-part{
+    position: absolute;
+    right: 0;
+    top: -42px;
+}
+.batch-view-form-link .link-part .go-back{
+    margin-right: 5px;
+    margin-top: -2px;
+}
+.batch-view-content.form-1{
+    display: grid;
+    grid-template-rows: max-content;
+}
+.batch-view-page-layout{
+    display: grid;
+}
+.batch-mopdal-button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+.batch-mopdal-button button {
+    margin-top: 5px !important;
+    padding: 10px 20px !important;
+}
+.modal-body .invoice-card.information-card .link-part a{
+    margin-top: 38px;
+}
+.data-table-modal .modal-content{
+    padding: 40px;
+}
+.data-table-modal .modal-header, .data-table-modal .modal-body{
+    padding: 0;
+}
+.data-table-modal .table-title{
+    font-family: "Cerebri Sans,sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #3A4149;
+    margin-bottom: 40px;
+}
+.data-table-modal .button-close{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+.batch-view-pagination{
+    margin-top: 30px;
+}
+
+.batch-view-pagination .page-link{
+    border: 0;
+    background-color: transparent;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #6F768C;
+}
+.batch-view-pagination .page-link:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.batch-view-pagination .page-item.active .page-link{
+    background: #6B65D8;
+    border-radius: 3px;
+}
